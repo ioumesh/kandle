@@ -1,0 +1,13 @@
+.chatWrapper {
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: -10px;
+  right: 10;
+}
+.verticalLine {
+  width: 1px;
+  height: 20px;
+  background: #7a8792;
+}

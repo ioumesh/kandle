@@ -1,0 +1,22 @@
+.btn {
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+}
+.primaryBtn {
+  font-weight: 700;
+  display: flex;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #57ae10 0deg,
+    #1e8139 360deg
+  );
+  cursor: pointer;
+}
