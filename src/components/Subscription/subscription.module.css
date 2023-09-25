@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+.input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 16px 10px;
+  border: 1px solid rgba(122, 135, 146, 0.5);
+  background: #1e2024;
+  position: relative;
+}
+.btn {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .input {
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .btn {
+   position: unset;
+   margin-top: 10px;
+  }
+}

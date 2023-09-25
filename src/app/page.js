@@ -1,7 +1,7 @@
 import Carousel from "@/container/Slider/Carousel/Carousel";
 import Games from "@/container/Games/Games";
-import Hero from "@/container/Hero/Hero";
 import Winners from "@/container/Winners/Winners";
+import NewsLetter from "@/container/NewsLetter/NewsLetter";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Games />
       <Winners/>
       <Carousel/>
+      <NewsLetter/>
     </duv>
   );
 }
