@@ -1,9 +1,12 @@
+.footer {
+  background: #1a1c20;
+  padding: 40px 0 140px 0px;
+}
 .footerWrapper {
   margin: 0 auto;
   padding: 10px 50px;
   display: flex;
   justify-content: space-between;
-  background: #1a1c20;
 }
 .left {
   display: flex;
@@ -26,5 +29,33 @@
   font-size: 13px;
   font-weight: 600;
 }
-.right {
+.joinHeading {
+  color: #cfd8df;
+  font-size: 15px;
+  font-weight: 600;
+}
+.socialIcon {
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footerWrapper {
+    display: block;
+  }
+  .left {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
 }

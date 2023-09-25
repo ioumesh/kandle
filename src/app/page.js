@@ -8,7 +8,7 @@ export default function Home() {
     <duv>
       <Games />
       <Winners/>
-      
+      <Carousel/>
     </duv>
   );
 }
