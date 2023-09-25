@@ -5,6 +5,8 @@
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
+  background: #1f813c;
 }
 .primaryBtn {
   color: #fff;

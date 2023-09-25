@@ -1,5 +1,6 @@
 import Carousel from "@/components/Carousel/Carousel";
 import Games from "@/container/Games/Games";
+import Hero from "@/container/Hero/Hero";
 import Winners from "@/container/Winners/Winners";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <duv>
       <Games />
       <Winners/>
+      
     </duv>
   );
 }
