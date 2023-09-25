@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Hero />
         <div className="container">{children}</div>
+
         <Footer />
       </body>
     </html>
