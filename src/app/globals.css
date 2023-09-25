@@ -139,3 +139,47 @@ nav {
   height: 100%;
   object-fit: cover;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 30px;
+  }
+  .nav {
+    padding: 10px 30px;
+  }
+}
+/* table  */
+.table-container {
+  overflow-x: auto;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.responsive-table th {
+  color: #b5bec6;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 0.1px solid #b5bec6;
+  opacity: 0.85;
+}
+
+.responsive-table tbody tr:nth-child(even) {
+  border-radius: 4px !important;
+  background: #2b2d33;
+}
+
+.responsive-table tbody tr:hover {
+  color: #fff;
+  background: #1f813c;
+}
