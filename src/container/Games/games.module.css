@@ -1,0 +1,13 @@
+.cardWrapper {
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cardWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

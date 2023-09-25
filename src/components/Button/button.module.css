@@ -7,9 +7,11 @@
   align-items: center;
 }
 .primaryBtn {
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
   display: flex;
-  padding: 14px 28px;
+  padding: 14px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -19,4 +21,23 @@
     #1e8139 360deg
   );
   cursor: pointer;
+}
+.secondaryBtn {
+  cursor: pointer;
+  display: flex;
+  padding: 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #2d3035;
+  color: #7a8792;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.secondaryBtn:hover {
+  color: #fff;
+  background: #1f813c;
 }

@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.imgWrapper {
+  position: relative;
+  height: 230px;
+}
+.imgWrapper img {
+  border-radius: 4px;
+}
+.title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.desc {
+  color: #b5bec6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .imgWrapper {
+    height: 150px;
+  }
+}
+
