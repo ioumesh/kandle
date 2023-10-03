@@ -6,7 +6,7 @@ import styles from "./navitems.module.css";
 const NavItems = () => {
   return (
     <>
-      <Button buttonName={"Sign in"} url={"/dashboard/login"} />
+      <Button variant="normalBtn" buttonName={"Sign in"} url={"/dashboard/login"} />
       <Button
         buttonName={"Sign up"}
         variant="primaryBtn"

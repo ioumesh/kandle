@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/container/Hero/Hero";
 
+
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <header>
+    <header className="header">
       <nav className={`nav`}>
         <Link href={"/"}>
           <Logo />
